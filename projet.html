@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>portfolio| Projets</title>
+  <link rel="stylesheet" href="projet.css" />
+  <script src="script.js" defer></script> 
+</head>
+<body>
+
+
+
+  <nav class="navbar">
+    <div class="logo">Alexandre Jules Lorkens</div>
+    <div class="burger">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <div class="nav-links">
+      <a href="index.html">Accueil</a>
+      <a href="projet.html" class="active">Projets</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    
+  </nav>
+
+  <main class="projects">
+    <header>
+      <h1>Mes Projets</h1>
+      <p>Découvrez quelques-uns de mes travaux en développement web et design graphique.</p>
+    </header>
+
+    <section class="project-list">
+    
+      <article class="project-card">
+
+<article class="project-card">
+  <img src="static/hally bar (1).png" alt="Flyer Studio" />
+  <h2>Flyer Studio</h2>
+  <p>Flyer événementiel pour un studio, design moderne et dynamique. <br><strong>Technologies :</strong> Photoshop.</p>
+  <button class="view-image-btn" data-img-src="static/hally bar (1).png" aria-label="Voir l'image Flyer Studio">Voir l'image</button>
+</article>
+
+<article class="project-card">
+  <img src="static/carte.png" alt="Carte de Visite" />
+  <h2>Carte de Visite</h2>
+  <p>Carte élégant et claire, idéale pour renforcer votre image de marque. <br><strong>Technologies :</strong> Illustrator, Photoshop.</p>
+  <button class="view-image-btn" data-img-src="static/carte.png" aria-label="Voir l'image Carte de Visite">Voir l'image</button>
+</article>
+
+<article class="project-card">
+  <img src="static/arduino.png" alt="projet arduino" />
+  <h2>Projet Arduino</h2>
+  <p>Projet d’alarme Arduino : un mélange de technologie et de protection. <br><strong>Technologies :</strong> Arduino, capteurs, câblage, IDE Arduino.</p>
+  <button class="view-image-btn" data-img-src="static/arduino.png" aria-label="Voir l'image Carte de Visite">Voir l'image</button>
+</article>
+
+
+    </section>
+  </main>
+<div class="modal" id="imageModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle" tabindex="-1">
+  <div class="modal-content">
+    <button id="closeModal" aria-label="Fermer la fenêtre">&times;</button>
+    <img src="" alt="" id="modalImage" />
+    <h2 id="modalTitle" style="display:none;"></h2> 
+    
+  </div>
+</div>
+<button id="darkModeToggle" aria-label="Activer/désactiver mode sombre" title="Mode sombre">🌙</button>
+  <footer>
+    <p>&copy; @PORTEFOLIO— Créé par Jules Lorkens Alexandre. Tous droits réservés</p>
+  </footer>
+</body>
+</html>
